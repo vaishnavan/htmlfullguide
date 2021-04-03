@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <div class="form_design">
+        <form>
+            <label>first name</label>
+            <input type="text" placeholder="Enter your name" required  /><br /><br />
+            <label>Last name</label>
+            <input type="text" placeholder="Enter your name" pattern="[A-Z]{4}" /><br /><br />
+            <label>Age</label>
+            <input type="number" placeholder="Enter age" /><br /><br />
+            <label>DOB</label>
+            <input type="date" /><br /><br />
+            <label>Email</label>
+            <input type="email" placeholder="Enter your mail" /><br /><br />
+            <label>Gender:</label>
+            <input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />FeMale<br /><br />
+            <label>Hobbies</label>
+            <input type="checkbox" />music
+            <input type="checkbox" />playing
+            <input type="checkbox" />coding<br /><br />
+            <label>Address</label><br /><br />
+            <textarea rows="7" cols="20">
+            </textarea><br /><br />
+            <label>File upload</label>
+            <input type="file" /><br /><br />
+            <label>country</label>
+            <select>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+            </select><br /><br />
+            <label>Pick color</label>
+            <input type="color" /><br /><br />
+            <label>Progress</label>
+            <progress value="50" min="0" max="100" ></progress>50%<br /><br />
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+</html>
